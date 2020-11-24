@@ -14,7 +14,6 @@
   padding: 40px 0;
   padding-left: 44px;
   font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
-  border: dashed 1px red;
 }
 .logo__circle{
   position: absolute;
@@ -25,7 +24,6 @@
   height: 28px;
   opacity: 0.7;
   border-radius: 50%;
-  border: dashed 1px red;
 }
 .logo__circle_dark_blue{
   background: #0056EC;
