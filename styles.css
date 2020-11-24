@@ -7,14 +7,12 @@
 .menu{
   display: flex;
   align-items: center;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 22px;
-  line-height: 26px;
+  font: normal 22px/26px Roboto, arial, helvetica, sans-serif;
 }
 .logo{
   padding: 40px 0;
+  font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
+  background: url('img/logo.svg')
 }
 .header{
   display: flex;
@@ -28,9 +26,5 @@ body{
   margin: 0;
 }
 .main-content__title{
-  font-family: 'PT Serif', serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 66px;
-  line-height: 87px;
+  font: bold 66px/87px pt_serif, arial, helvetica, sans-serif;
 }
