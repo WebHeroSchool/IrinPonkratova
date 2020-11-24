@@ -10,12 +10,30 @@
   font: normal 22px/26px Roboto, arial, helvetica, sans-serif;
 }
 .logo{
-  /*padding: 40px 0;
-  font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;*/
-  width: 190px;
-  height: 35px;
+  position:relative;
+  padding: 40px 0;
+  padding-left: 44px;
+  font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
   border: dashed 1px red;
-  background: url('img/logo.svg')
+}
+.logo__circle{
+  position: absolute;
+  left:0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 28px;
+  height: 28px;
+  opacity: 0.7;
+  border-radius: 50%;
+  border: dashed 1px red;
+}
+.logo__circle_dark_blue{
+  background: #0056EC;
+}
+.logo__circle_blue{
+  left: 8px;
+  top: 56%;
+  background: #C8DBFB;
 }
 .header{
   display: flex;
