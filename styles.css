@@ -77,8 +77,9 @@ body{
 }
 
 .main{
-  padding: 0 63% 400px 0;
+  padding: 103px 63% 400px 0;
   background: top right no-repeat url(img/mainimg.svg);
+  background-size: 50%;
 }
 .main__title{
   margin: 0 0 40px 0;
@@ -105,12 +106,14 @@ body{
   opacity: .5;
 }
 @media (max-width: 1366px){
+  .header{
+  margin-bottom: 85px;
+  }
   .menu__item{
   font: 500 14px/16px robotobold, arial, helvetica, sans-serif;
 }
   .main{
-  padding: 0 47% 100px 0;
-  background-size:65%;
+  padding: 25px 47% 100px 0;
 }
  
   .main__subtitle {
@@ -121,7 +124,6 @@ body{
 @media (max-width: 1024px) {
   .main{
   padding: 0 55% 100px 0;
-  background-size:55%;
 }
   .main__subtitle {
   margin: 0 10% 41px 0;
