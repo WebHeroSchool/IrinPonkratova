@@ -124,7 +124,10 @@ body{
   margin: 0 40% 41px 0;
  }
 }
-
+@media (max-width: 1208px) {
+  .wrapper{
+  width: 91%;
+  }
 @media (max-width: 1024px) {
   .main{
   padding: 15px 55% 100px 0;
@@ -132,14 +135,11 @@ body{
   .main__subtitle {
   margin: 0 10% 41px 0;
  }
-  .wrapper{
-  width: 91%;
-  }
   .header{
     margin-bottom: 85px;
  }
 }
-@media (min-width: 980px) {
+@media (min-width: 981px) {
 .hamburger-menu{
   display: none;
   }
@@ -148,10 +148,8 @@ body{
 .menu {
     display: none;
   }
- .logo {
-    position: relative;
-    padding: 0 0 40px 44px;
-    font: bold 24px/31px pt_serifbold, arial, helvetica, sans-serif;
+ .logo{
+  color: transparent;
   }
    /*скрываем чекбокс*/
   #menu__toggle{
@@ -244,9 +242,7 @@ body{
     margin-bottom: 25px;
     font: 500 16px/19px robotoregular, arial, helvetica, sans-serif;
   }
-  .logo{
-  color: transparent;
-  }
+  
   .main__button{
     font: 500 14px/16px robotoregular, arial, helvetica, sans-serif;
   }
